@@ -39,7 +39,7 @@ const projects = [
       description: "Turns a screenshot into HTML, React or Vue code with a live preview, racing several OpenAI models on the same image. Shipped through a Jenkins CI/CD pipeline: tests, Trivy security scans, Docker images, and a k3s deploy on Terraform-provisioned AWS with automatic rollback.",
       imgUrl: Pixel2Code,
       githubLink: "",
-      deployedLink: "",
+      deployedLink: "https://d2cdl670ss7x6d.cloudfront.net/",
       technologies: ["NextJS", "FastAPI", "OpenAI", "Supabase", "Jenkins", "Docker", "Kubernetes (k3s)", "Terraform", "AWS"]
     },
     {
