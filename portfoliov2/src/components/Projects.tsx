@@ -20,6 +20,7 @@ import GDGXSparky from "../assets/project-images/GDGXSparky.png";
 import IskoChat from "../assets/project-images/IskoChatAI.png";
 import ObjectDetectionCV from "../assets/project-images/ObjectDetectionCV.png";
 import PUPPortal from "../assets/project-images/PUPPortal.png";
+import Pixel2Code from "../assets/project-images/Pixel2Code.png";
 import ScamApp from "../assets/project-images/ScamApp.png";
 import TechnoQuatro from "../assets/project-images/TechnoQuatro.png";
 import weChat from "../assets/project-images/weChat.png";
@@ -33,6 +34,14 @@ const projects = [
     deployedLink: "https://pupgs.com/",
     technologies: ["React", "PHP", "Laravel", "MySQL", "WebSockets", "GoDaddy"]
   },
+    {
+      title: "Pixel2Code (Screenshot to Code AI)",
+      description: "Turns a screenshot into HTML, React or Vue code with a live preview, racing several OpenAI models on the same image. Shipped through a Jenkins CI/CD pipeline: tests, Trivy security scans, Docker images, and a k3s deploy on Terraform-provisioned AWS with automatic rollback.",
+      imgUrl: Pixel2Code,
+      githubLink: "",
+      deployedLink: "",
+      technologies: ["NextJS", "FastAPI", "OpenAI", "Supabase", "Jenkins", "Docker", "Kubernetes (k3s)", "Terraform", "AWS"]
+    },
     {
         title: "Arduino Day PH 2025 Website",
         description: "Official Arduino Day PH 2025 site built with NextJS and TypeScript. Features event registration, dynamic program flow, and smooth animations",
