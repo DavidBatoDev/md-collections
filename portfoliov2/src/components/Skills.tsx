@@ -116,7 +116,7 @@ const groupedSkills = {
       label: "Google Cloud"
     },
     {
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original.svg",
       alt: "AWS Logo",
       label: "AWS"
     },
